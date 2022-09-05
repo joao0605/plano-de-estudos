@@ -41,7 +41,7 @@ public class Disciplina {
     }
 
     public double getTempoTotal() {
-        
+
         return tempoTotal;
     }
 
@@ -93,4 +93,16 @@ public class Disciplina {
         return tempoEstudo;
     }
 
+    @Override
+    public String toString() {
+        return "Disciplina{" +
+                "nome='" + nome + '\'' +
+                ", prioridade=" + prioridade +
+                ", horasExigidas=" + horasExigidas +
+                ", tempoTotal=" + tempoTotal +
+                ", tempoRevisao=" + tempoRevisao +
+                ", tempoExercicios=" + tempoExercicios +
+                ", tempoEstudo=" + tempoEstudo +
+                '}';
+    }
 }
